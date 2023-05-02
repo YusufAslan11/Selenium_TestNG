@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Day 24 Smoke test">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ttyus/IdeaProjects/postGreJDBC/B129TestNgProject/src/test/java/techproed/tests/day24_Properties_Pages/SmokeTest">
+        <classes>
+            <class name="techproed.tests.day24_Properties_Pages.SmokeTest.NegativeTest">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.day24_Properties_Pages.SmokeTest.PositiveTest">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
