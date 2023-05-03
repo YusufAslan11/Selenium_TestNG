@@ -28,7 +28,7 @@ public class C04_PageClassKullanimi {
 
         FacebookPage facebookPage = new FacebookPage();
         facebookPage.emailKutusu.sendKeys("Ahmet");
-q
+
 
         // kullanıcı sifre kutusuna rastgele bir password yazın
         facebookPage.sifreKutusu.sendKeys("12as22aas");
