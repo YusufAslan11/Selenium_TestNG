@@ -7,7 +7,7 @@ import techproed.pages.BlueRentalPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
 public class PositiveTest {
-    @Test
+    @Test (groups = "smoke")
     public void test1() {
         /*
         Acceptance Criteria:

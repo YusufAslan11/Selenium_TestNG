@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test
+          name="techproed/tests/day22_Annotations">
+        <classes>
+            <class name="techproed.tests.day22_Annotations.C01_Annotations">
+                <methods>
+
+                    <exclude name="test4"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.day22_Annotations.C02_BeforeAfterMethod">
+                <methods>
+                    <include name="amazonTest"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.day22_Annotations.C03_Priority">
+                <methods>
+                    <include name="facebookTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+        <!-- .xml file açtıktan sonra crtl+alt+l tuşlarına basarak .xml file'daki kodları düzene koyarız -->
+        <!-- .xml file da ilk tag <suite> sonra <test> olarak devam eder-->
+        <!-- .xml file ile bu class'ta sadece package olarak test yapacağımız için <classes> tag'lerine gerek yoktur-->
+        <!-- Sağ tık yaptığımız zaman run sekmesi görükmüyorsa file->save-all (ctrl+s) yapmamız gerekir -->
