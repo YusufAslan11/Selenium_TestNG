@@ -11,19 +11,18 @@ import techproed.utilities.ReusableMethods;
 public class C05_DataProvider {
 
 
+            /*
+           sam.walker@bluerentalcars.com	c!fas_art
+           kate.brown@bluerentalcars.com	tad1$Fas
+           raj.khan@bluerentalcars.com	v7Hg_va^
+           pam.raymond@bluerentalcars.com	Nga^g6!
+           Verileri kullanarak bluerentalcar sayfasına login olalim
 
-    /*
-   sam.walker@bluerentalcars.com	c!fas_art
-   kate.brown@bluerentalcars.com	tad1$Fas
-   raj.khan@bluerentalcars.com	v7Hg_va^
-   pam.raymond@bluerentalcars.com	Nga^g6!
-   Verileri kullanarak bluerentalcar sayfasına login olalim
-
-    */
+            */
     @DataProvider
     public static Object[][] blueRental() {
         return new Object[][]{{"sam.walker@bluerentalcars.com","c!fas_art"},
-                {"kate.brown@bluerentalcars.com","tad1$Fas"}};
+                        {"kate.brown@bluerentalcars.com","tad1$Fas"}};
     }
 
     @Test(dataProvider = "blueRental")

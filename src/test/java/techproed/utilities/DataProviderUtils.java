@@ -3,6 +3,7 @@ package techproed.utilities;
 import org.testng.annotations.DataProvider;
 
 public class DataProviderUtils {
+
     @DataProvider
     public Object[][] sehirVerileri() {
         return new Object[][]{{"Ankara","IçAnadolu","06"},{"Izmir","Ege","35"},{"DiyarBakır","Doğu","21"}};

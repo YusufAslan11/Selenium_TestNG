@@ -15,7 +15,7 @@ public class C03_BlueRentalExcelTest2 {
         Excel dosyamızdaki tüm email ve password'ler ile
         BlueRentalCar sayfasına gidip login olalım
          */
-        ExcelUtils excelUtils = new ExcelUtils("src/test/resources/mysmoketestdata.xlsx","customer_info");
+        ExcelUtils excelUtils = new ExcelUtils("src/test/java/resources/mysmoketestdata.xlsx","customer_info");
 
         //Sayfaya gidelim
         Driver.getDriver().get(ConfigReader.getProperty("blueRentACarUrl"));

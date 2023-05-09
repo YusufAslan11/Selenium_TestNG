@@ -6,7 +6,6 @@ import org.openqa.selenium.support.PageFactory;
 import techproed.utilities.Driver;
 
 public class BlueRentalPage {
-
     public BlueRentalPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
@@ -27,5 +26,4 @@ public class BlueRentalPage {
     public WebElement logout;
     @FindBy(xpath = "//*[text()='OK']")
     public WebElement ok;
-
 }

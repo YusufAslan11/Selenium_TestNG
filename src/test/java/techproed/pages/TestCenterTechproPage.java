@@ -11,6 +11,7 @@ public class TestCenterTechproPage {
     }
     @FindBy(xpath = "//*[@id='exampleInputEmail1']")
     public WebElement userName;
+
     @FindBy(xpath = "//*[@role='alert']")
     public WebElement text;
     @FindBy(xpath = "//*[text()=' Logout']")

@@ -12,6 +12,3 @@ public class GooglePage {
     @FindBy(xpath = "//*[@name='q']")
     public WebElement aramaKutusu;
 }
-
-
-

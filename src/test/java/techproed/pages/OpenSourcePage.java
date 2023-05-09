@@ -7,16 +7,15 @@ import techproed.utilities.Driver;
 
 public class OpenSourcePage {
     /*
-   Locate'lerimizi tek bir yerde düzenli bir şekilde tutabilmek için;
-       1-İlk olarak oluşturmuş olduğumuz page class'ımızda bir constructor oluştururuz
-       2-PageFactory class'ından initelements methodu ile driver'i tanıtırız
-       3-@FindBy notasyonu kullanarak locatelerimizi alırız
-    */
-    public OpenSourcePage() {
-        PageFactory.initElements(Driver.getDriver(), this);
-
+    Locate'lerimizi tek bir yerde düzenli bir şekilde tutabilmek için;
+        1-İlk olarak oluşturmuş olduğumuz page class'ımızda bir constructor oluştururuz
+        2-PageFactory class'ından initElements() methodu ile driver'i tanıtırız
+        3-@FindBy notasyonu kullanarak locatelerimizi alırız
+     */
+    public OpenSourcePage(){
+        PageFactory.initElements(Driver.getDriver(),this);
     }
-
+    //Driver.getDriver().findElement(By.xpath("locate"));
     @FindBy(xpath = "//*[@name='username']")
     public WebElement username;
     @FindBy(xpath = "//*[@name='password']")
